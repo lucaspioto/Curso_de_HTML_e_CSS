@@ -1,0 +1,13 @@
+.sobre {
+    height: 785px;
+    background: var(--gray1);
+    border-bottom: #000 10px solid;
+}
+
+.sobre .title-3 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+}

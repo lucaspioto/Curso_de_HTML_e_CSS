@@ -1,0 +1,13 @@
+.contatos {
+    height: 785px;
+    background: var(--gray4);
+    border-bottom: #000 100px solid;
+}
+
+.contatos .title-3 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+}

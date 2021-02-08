@@ -17,15 +17,19 @@
 .skills .box-skills {
     width: 960px;
     height: 480px;
-    background-color: tomato;
+    /* background-color: tomato; */
     margin: auto 0;
 }
 
 .box2-skills {
     position: relative;
-    background-color: green;
-    width: 430px;
+    /* background-color: green; */
+    width: 530px;
     height: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 55px;
 }
 
 .box2-skills p {
@@ -48,14 +52,14 @@
 .progress {
     position: relative;
     background: var(--gray3);
-    width: 100%;
+    width: 72%;
     height: 25%;
     overflow: hidden;
     border: #000 5px solid;
-    
+    top: 50px;
 }
 
-.html::after {
+.progress::after {
     content: '';
     position: absolute;
     background: #fff;

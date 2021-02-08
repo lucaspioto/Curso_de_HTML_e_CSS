@@ -24,15 +24,4 @@
     border: 1px solid #000;
 }
 
-.projetos .projetos-fotos-2 {
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-.projetos .projetos-fotos-2 img {
-    height: 280px;
-    width: 280px;
-    box-shadow: 20px 20px 0 green;
-}
 
