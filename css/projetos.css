@@ -1,0 +1,38 @@
+.projetos {
+    height: 520px;
+    background: #000;
+    border-bottom: var(--amarelo) 10px solid;
+}
+
+.projetos .title-3 {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: "Press Start 2P";
+    font-size: 40px;
+}
+
+.projetos .projetos-fotos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projetos .projetos-fotos img {
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0 #fff;
+    border: 1px solid #000;
+}
+
+.projetos .projetos-fotos-2 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.projetos .projetos-fotos-2 img {
+    height: 280px;
+    width: 280px;
+    box-shadow: 20px 20px 0 green;
+}
+

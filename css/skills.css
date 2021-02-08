@@ -1,0 +1,65 @@
+.skills {
+    background-color: var(--amarelo);
+    height: 840px;
+    border-bottom: var(--gray1) solid 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills .title-2 {
+    position: absolute;
+    text-align: center;
+    font-family: "Press Start 2P";
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.skills .box-skills {
+    width: 960px;
+    height: 480px;
+    background-color: tomato;
+    margin: auto 0;
+}
+
+.box2-skills {
+    position: relative;
+    background-color: green;
+    width: 430px;
+    height: 90px;
+}
+
+.box2-skills p {
+    position: absolute;
+    left: 25.58%;
+    right: 51.16%;
+    top: 5.56%;
+    bottom: 66.67%;
+    /* Subtitle */
+    font-family: "Press Start 2P";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    /* identical to box height */
+    /* Gray 1 */
+    color: var(--gray1);
+}
+
+.progress {
+    position: relative;
+    background: var(--gray3);
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+    border: #000 5px solid;
+    
+}
+
+.html::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+}
