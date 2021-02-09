@@ -59,11 +59,29 @@
     top: 50px;
 }
 
-.progress::after {
+.html::after {
     content: '';
     position: absolute;
     background: #fff;
     width: 100%;
     height: 100%;
     left: 50%;
+}
+
+.css::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    left: 28%;
+}
+
+.js::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    left: 40%;
 }
