@@ -11,3 +11,14 @@
     font-family: "Press Start 2P";
     font-size: 40px;
 }
+
+.sobre p {
+    color: white;
+    font-family: "Fira Code";
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: justify;
+    width: 1280px;
+    margin: 250px auto;
+}
