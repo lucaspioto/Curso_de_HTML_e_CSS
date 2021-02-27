@@ -17,12 +17,12 @@
     box-sizing: border-box;
     width: 30px;
     height: 30px;
-    border-width: 20px 30px;
-    border-color: transparent transparent transparent white;
-    border-style: solid;
+    border: 20px solid transparent;
+    border-left: 30px solid white;
+    border-right-width: 0;
     transform: translateX(10px);
 }
 
 .button-arrow.-left::before {
-    transform: rotate(180deg) translateX(20px);
+    transform: rotate(180deg) translateX(-10px);
 }
