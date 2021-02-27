@@ -10,7 +10,7 @@
     content:"";
     height: 0px;
     width: 40px;
-    border-top: 3px dashed #000;
+    border-top: 4px dashed #000;
     transform: rotate(90deg) translateX(140%);
 }
 
