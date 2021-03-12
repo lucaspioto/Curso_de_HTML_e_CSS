@@ -1,7 +1,7 @@
 .contatos {
     height: 785px;
     background: var(--gray4);
-    border-bottom: #000 100px solid;
+    border-bottom: #000 10px solid;
 }
 
 .contatos .title-3 {
