@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="./css/node-card.css" />
     <link rel="stylesheet" href="./css/main-carousel.css" />
     <link rel="stylesheet" href="./css/main-footer.css" />
+    <link rel="stylesheet" href="./css/main-label.css" />
+    <link rel="stylesheet" href="./css/main-input.css" />
 
     <link rel="icon" href="./img/code.svg" />
 
@@ -160,6 +162,18 @@
 
     <section class="contatos">
       <div class="title-3">Contatos</div>
+      <form action="">
+          <label class="main-label" for="name">Nome</label>
+          <input class="main-input" id="name" type="text">
+
+          <label class="main-label" for="email">Email</label>
+          <input class="main-input" id="email" type="email">
+
+          <label class="main-label" for="message">Mensagem</label>
+          <textarea class="main-input -textarea" id="message"></textarea>
+
+          <input type="submit" value="Enviar">
+      </form>
     </section>
 
     <footer class="main-footer">
