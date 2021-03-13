@@ -31,3 +31,17 @@
 .button-2:hover {
     transform: scale(1.08);
 }
+
+.button-2.-full {
+    width: 100%;
+    cursor: pointer;
+}
+
+.button-2.-full:hover {
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48),
+    background-color 500ms ease-in-out,
+    color 500ms ease-in-out;
+    background-color: var(--gray1);
+    color: var(--amarelo);
+    transform: scale(1.015);
+}
