@@ -44,4 +44,5 @@
     background-color: var(--gray1);
     color: var(--amarelo);
     transform: scale(1.015);
+    border: var(--amarelo) solid 1px;
 }
