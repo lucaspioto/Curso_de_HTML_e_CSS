@@ -1,5 +1,5 @@
 .sobre {
-    height: 785px;
+    height: 100%;
     background: var(--gray1);
     border-bottom: #000 10px solid;
 }
@@ -12,7 +12,7 @@
     font-size: 40px;
 }
 
-.sobre p {
+.sobre .descricao {
     color: white;
     font-family: "Fira Code";
     font-weight: 300;
