@@ -168,13 +168,13 @@
       <div class="title-3">Contatos</div>
       <form class="main-form" action="php/send_email.php" method="post" name="form">
         <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" name="nome" type="text">
+        <input class="main-input" id="name" name="nome" type="text" required>
 
         <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" name="email" type="email">
+        <input class="main-input" id="email" name="email" type="email" required>
 
         <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" name="mensagem" id="message"></textarea>
+        <textarea class="main-input -textarea" name="mensagem" id="message" required></textarea>
 
         <input class="button-2 -full" type="submit" value="Enviar">
       </form>
