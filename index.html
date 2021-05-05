@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/responsividade.css" />
@@ -54,7 +54,7 @@
         </div>
         <div class="navigation">
           <a href="cv/LucasTamagnone-CV.pdf" download="LucasTamagnone-CV" class="button-2">Download CV</a>
-          <a href="" class="button-2">Contatos</a>
+          <a href="#contatos" class="button-2">Contatos</a>
         </div>
       </div>
     </section>
@@ -83,15 +83,15 @@
     <section id="projetos" class="projetos">
       <div class="title-3">Projetos</div>
       <div class="projetos-fotos">
-        <a href="http://firedlabs.camorii.com.br/" target="_blank">
+        <a href="http://firedlabs.camorii.com.br/" >
           <img src="./img/perfil.jpeg" alt="" />
         </a>
 
-        <a href="http://firedlabs.camorii.com.br/" target="_blank">
+        <a href="http://firedlabs.camorii.com.br/" >
           <img src="./img/perfil.jpeg" alt="" />
         </a>
 
-        <a href="http://firedlabs.camorii.com.br/" target="_blank">
+        <a href="http://firedlabs.camorii.com.br/" >
           <img src="./img/perfil.jpeg" alt="" />
         </a>
       </div>
@@ -166,15 +166,15 @@
 
     <section id="contatos" class="contatos">
       <div class="title-3">Contatos</div>
-      <form class="main-form">
+      <form class="main-form" action="php/send_email.php" method="post" name="form">
         <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text">
+        <input class="main-input" id="name" name="nome" type="text" required>
 
         <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" type="email">
+        <input class="main-input" id="email" name="email" type="email" required>
 
         <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" id="message"></textarea>
+        <textarea class="main-input -textarea" name="mensagem" id="message" required></textarea>
 
         <input class="button-2 -full" type="submit" value="Enviar">
       </form>
@@ -193,8 +193,8 @@
       </a>
     </footer>
 
-    <script src="./js/components/add-smooth-scroll.js" defer></script>
-    <script src="./js/components/main-carousel.js"></script>
+    <script defer src="./js/components/add-smooth-scroll.js" ></script>
+    <script defer src="./js/components/main-carousel.js" ></script>
   
 </body>
 
